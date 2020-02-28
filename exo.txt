@@ -1,0 +1,11 @@
+** EXO **
+
+Créer une page tweets.php listant les tweets enregistrés en db.
+
+Les tweets seront accompagnés d'un lien "supprimer" si l'utilisateur
+est logué. 
+Le clic sur le lien "supprimer" fera une requête GET sur
+un fichier delete_tweet.php?tid=
+
+Toute tentative de suppression sans être logué devra
+être interdite
